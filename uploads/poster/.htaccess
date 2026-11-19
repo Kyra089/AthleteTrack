@@ -1,0 +1,5 @@
+# Poster pakej boleh dipaparkan secara umum, tetapi skrip tidak boleh dijalankan di sini.
+php_flag engine off
+<FilesMatch "\.(php|phtml|phar|php\d)$">
+    Require all denied
+</FilesMatch>

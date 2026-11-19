@@ -1,0 +1,2 @@
+# Bukti pembayaran hanya boleh dibuka melalui api/lihat-bukti.php (semakan log masuk).
+Require all denied

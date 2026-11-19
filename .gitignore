@@ -1,0 +1,37 @@
+# --- Rahsia & konfigurasi tempatan (guna fail .example sebagai templat) ---
+.env
+.env.*
+!.env.example
+db.php
+config-emel.php
+
+# --- Fail muat naik pengguna (bukti pembayaran, poster) ---
+# Folder dikekalkan bersama .htaccess keselamatannya; kandungan lain tidak di-commit.
+uploads/*
+!uploads/bukti/
+!uploads/poster/
+uploads/bukti/*
+!uploads/bukti/.htaccess
+uploads/poster/*
+!uploads/poster/.htaccess
+
+# --- Data peribadi atlet sebenar / data contoh (nama, No. KP, e-mel, telefon) ---
+sql/data_*.sql
+/athletetrack_db.sql
+
+# --- Kebergantungan ---
+vendor/
+node_modules/
+
+# --- Log & fail sementara ---
+*.log
+logs/
+*.tmp
+*.bak
+
+# --- Fail sistem / editor ---
+desktop.ini
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
