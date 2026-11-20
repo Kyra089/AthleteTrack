@@ -553,6 +553,7 @@ td:last-child{white-space:nowrap;}
   .bar-col{min-width:34px;}
 }
 </style>
+<link href="polish.css?v=4" rel="stylesheet">
 </head>
 <body>
 <div id="toast"></div>
@@ -3358,5 +3359,6 @@ var PEMUAT_HALAMAN={
   }catch(error){console.error(error);}
 })();
 </script>
+<script src="polish.js?v=3"></script>
 
 </body></html>
